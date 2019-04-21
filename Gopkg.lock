@@ -37,9 +37,31 @@
   revision = "a3647f8e31d79543b2d0f0ae2fe5c379d72cedc0"
   version = "v2.1.0"
 
+[[projects]]
+  branch = "master"
+  name = "gonum.org/v1/gonum"
+  packages = [
+    "blas",
+    "blas/blas64",
+    "blas/cblas128",
+    "blas/gonum",
+    "floats",
+    "internal/asm/c128",
+    "internal/asm/c64",
+    "internal/asm/f32",
+    "internal/asm/f64",
+    "internal/cmplx64",
+    "internal/math32",
+    "lapack",
+    "lapack/gonum",
+    "lapack/lapack64",
+    "mat"
+  ]
+  revision = "b869779d1d53963e9e9eafca2d8aac6d4dcfa663"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "77e68d6c20d424b4107cf0cef503073ff2f746525d8a6db8777673190714f8a5"
+  inputs-digest = "881c744c7ee91b5ceec310a55f300b84f9557fb5965ebecd570d61800976e711"
   solver-name = "gps-cdcl"
   solver-version = 1
